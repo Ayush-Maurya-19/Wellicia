@@ -1,0 +1,167 @@
+.topNavBg {
+  background-color: #283b6a;
+  color: white;
+  font-weight: bold;
+}
+
+.banner_image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner_image img {
+  width: 100%;
+  height: 150%;
+  object-fit: contain;
+  object-position: 0px 0px;
+}
+
+.banner_image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(40, 59, 106, 0.7),
+    rgba(40, 59, 106, 0)
+  );
+}
+
+.banner-text {
+  position: absolute;
+  top: 0;
+  padding-top: 170px;
+  padding-left: 150px;
+  z-index: 1;
+}
+
+.experienceBG {
+  position: relative;
+  margine-left: 150px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.experienceBG img {
+  width: 100%;
+  height: 150%;
+  object-fit: contain;
+  object-position: 0px 0px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.text-success {
+  color: #00bfa6;
+}
+
+.media img {
+  width: 40px;
+  height: 40px;
+}
+
+//whyChooseUs
+.section {
+  padding: 50px 0;
+}
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 10px;
+}
+.play-button i {
+  font-size: 24px;
+  color: #00bfff;
+}
+.checklist {
+  list-style: none;
+  padding: 0;
+}
+.checklist li {
+  margin-bottom: 10px;
+}
+.checklist li::before {
+  content: "✔️";
+  color: #00bfff;
+  margin-right: 10px;
+}
+
+.bookingimg {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+}
+
+.bookingimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bookingimg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(40, 59, 106, 0.7);
+  z-index: 1;
+}
+
+.bookingimg img {
+  position: relative;
+  z-index: 0;
+}
+.bookingtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+}
+.bookingtext h4 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  color: #f9556d;
+}
+.bookingtext h1 {
+  font-size: 3rem;
+  text: bold;
+  margin-bottom: 20px;
+}
+
+.bookingtext .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  background-color: #20c7ba; /* Green button color */
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.blogpage {
+  background-color: #e4fafa;
+  padding: 100px 0 150px 50px;
+}
+
+.ufp {
+  padding-right: 80px;
+  font-size: 18px;
+}
