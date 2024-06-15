@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     <div class="container section mt-5">
     <div class="row align-items-center">
       <div class="col-md-6 position-relative">
-        <img src="../src/assets/whychooseus.jfif" alt="Doctor and Patient" class="img-fluid" />
+        <img src="/assets/WhyChooseUs.jfif" alt="Doctor and Patient" class="img-fluid" />
         
       </div>
       <div class="col-md-6 mt-5 px-5">

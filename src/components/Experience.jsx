@@ -5,7 +5,7 @@ const Experience = () => {
     <div style={{ paddingTop: "100px" }} className="mx-5 ">
       <div className="row gap-5">
         <div className="col experienceBG">
-          <img src="../src/assets/experience.jfif" alt="" class="img-fluid" />
+          <img src="/assets/experience.jfif" alt="" class="img-fluid" />
         </div>
         <div className="col">
           <div>
