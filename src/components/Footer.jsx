@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="py-4 container ">
       <div className="row">
         <div className="col">
-          <p>Copyright © 2023 Wellicia Pvt Ltd. All Right Reserved.</p>
+          <p>Copyright © 2024 Ayush Maurya. All Right Reserved.</p>
         </div>
         <div className="col text-end">Follow Us : </div>
       </div>
